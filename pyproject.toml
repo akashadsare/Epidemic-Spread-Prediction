@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = [
+    "E741",  # Allow single-letter variables (S, E, I, R are standard epidemiological notation)
+    "E402",  # Allow module-level imports after sys.path manipulation
+    "E501",  # Allow long lines in CSS templates and f-strings
+]

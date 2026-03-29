@@ -1,0 +1,4 @@
+covid-19-data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+processed_data/merged_data.csv filter=lfs diff=lfs merge=lfs -text
+Global_Mobility_Report.csv filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
